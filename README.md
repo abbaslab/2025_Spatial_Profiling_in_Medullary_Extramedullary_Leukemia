@@ -1,46 +1,47 @@
-# 2024_SpatialTranscriptomics_Medullary_Extramedullary_AML
- 
-# Spatial Transcriptomic Profiling of Medullary and Extramedullary Acute Myeloid Leukemia (AML)
+# 2025_SpatialTranscriptomics_Medullary_Extramedullary_AML
 
-This repository contains the code and analysis for the paper titled "Spatial Transcriptomics Reveals Inflammation and Trans-differentiation States of Acute Myeloid Leukemia in Extramedullary and Medullary Tissues."
+<h3 align="center">
+Spatial Transcriptomic Profiling of Medullary and Extramedullary Acute Myeloid Leukemia (AML)
+</h3>
 
-*Dasdemir et al. 2024*
+<p align="center">
+<strong>Dasdemir et al., 2025, iScience</strong>  
+<br/>
+<em>"Integrative Spatial Mulyi-Omics Reveal Niche-Specific Inflammatory Signaling and Differentiation Hierarchies in Acute Myeloid Leukemia"</em>
+</p>
 
-## Overview
+---
 
-This study provides a comprehensive spatial transcriptomic analysis of both medullary and extramedullary AML tissues. Using Visium and GeoMx spatial transcriptomics technologies, we explored the spatial distribution of cell types, identified key inflammatory pathways, and mapped the microenvironment of AML. The repository includes the R scripts used for data processing, visualization, and analysis as described in the manuscript.
+## 🧾 Overview
 
-## Installation
+This repository contains the code used for the analysis presented in the manuscript:
 
-To run the analysis, you will need to have R and the following packages installed:
+> **Integrative Spatial Multi-Omics Reveal Niche-Specific Inflammatory Signaling and Differentiation Hierarchies in Acute Myeloid Leukemia**  
+> *Dasdemir et al., 2025, iScience*
 
-- Seurat
-- ggplot2
-- dplyr
-- SCP
-- SpaCET
-- ggthemes
-- RColorBrewer
-- harmony
-- ggpubr
-- AUCell
-- CellChat
+The project integrates:
 
-You can install these packages using the following commands:
+- **10x Genomics Visium** spatial transcriptomics  
+- **GeoMx** spatial profiling  
+- Multiplex immunofluorescence / histology context  
 
-```R
-install.packages(c("ggplot2", "dplyr", "ggthemes", "RColorBrewer", "ggpubr", "harmony"))
-install.packages("Seurat")
-# Install Bioconductor packages
-if (!require("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-BiocManager::install("AUCell")
+to characterize:
 
+- Spatial organization of leukemic cells in **medullary** and **extramedullary** tissues  
+- Inflammatory microenvironmental niches  
+- Trans-differentiation states and niche-specific AML programs  
+- Cell–cell communication and inflammatory signaling axes (e.g. CXCL, CXCR4, PI3K/AKT/mTOR)
 
-# Install GitHub packages
-if (!require("devtools", quietly = TRUE)) {
-  install.packages("devtools")
-}
-devtools::install_github("jinworks/CellChat")
-devtools::install_github("zhanghao-njmu/SCP")
-devtools::install_github("data2intelligence/SpaCET")
+---
+
+## 📁 Repository Structure
+
+```text
+.
+├── R/Initial_QC.R
+├── R/Clustering_Annotation.R
+├── R/Downstream_Analysi
+├─R/MAD_Filtering_Process.R
+├── Opal_Intensities
+└── README
+
