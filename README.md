@@ -1,4 +1,4 @@
-# 2025_SpatialTranscriptomics_Medullary_Extramedullary_AML
+# 2025_Spatial_Profiling_in_Medullary_Extramedullary_AML
 
 <h3 align="center">
 Spatial Transcriptomic Profiling of Medullary and Extramedullary Acute Myeloid Leukemia (AML)
