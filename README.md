@@ -7,7 +7,7 @@ Spatial Transcriptomic Profiling of Medullary and Extramedullary Acute Myeloid L
 <p align="center">
 <strong>Dasdemir et al., 2025, iScience</strong>  
 <br/>
-<em>"Integrative Spatial Mulyi-Omics Reveal Niche-Specific Inflammatory Signaling and Differentiation Hierarchies in Acute Myeloid Leukemia"</em>
+<em>"Integrative Spatial Multi-Omics Reveal Niche-Specific Inflammatory Signaling and Differentiation Hierarchies in Acute Myeloid Leukemia"</em>
 </p>
 
 ---
@@ -17,7 +17,7 @@ Spatial Transcriptomic Profiling of Medullary and Extramedullary Acute Myeloid L
 This repository contains the code used for the analysis presented in the manuscript:
 
 > **Integrative Spatial Multi-Omics Reveal Niche-Specific Inflammatory Signaling and Differentiation Hierarchies in Acute Myeloid Leukemia**  
-> *Dasdemir et al., 2025, iScience*
+> *Enes Dasdemir, Ivo Veletic, Christopher P Ly, Andres E Quesada, Christopher D Pacheco, Fatima Z Jelloul, Pamella Borges, Sreyashi Basu, Sonali Jindal, Zhiqiang Wang, Alexander Lazar, Khalida M Wani, Dinler A Antunes, Patrick K Reville, Preethi H Gunaratne, Robert J Tower, Padmanee Sharma, Hussein A Abbas, 2025, iScience*
 
 The project integrates:
 
@@ -30,7 +30,7 @@ to characterize:
 - Spatial organization of leukemic cells in **medullary** and **extramedullary** tissues  
 - Inflammatory microenvironmental niches  
 - Trans-differentiation states and niche-specific AML programs  
-- Cell–cell communication and inflammatory signaling axes (e.g. CXCL, CXCR4, PI3K/AKT/mTOR)
+- Cell–cell communication and inflammatory signaling axes
 
 ---
 
@@ -41,7 +41,7 @@ to characterize:
 ├── R/Initial_QC.R
 ├── R/Clustering_Annotation.R
 ├── R/Downstream_Analysi
-├─R/MAD_Filtering_Process.R
+├─- R/MAD_Filtering_Process.R
 ├── Opal_Intensities
 └── README
 
